@@ -1,0 +1,13 @@
+.viewstudent{
+    margin-top: 5%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .viewstudent {
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
